@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RoleModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Microsoft.Contoso.Department.ProjectCodeName.Web" version="2.6.6496.2" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <Runtime>
+    <EntryPoint>
+      <NetFxEntryPoint assemblyName="Microsoft.Contoso.Department.ProjectCodeName.Web.dll" targetFrameworkVersion="v4.0" />
+    </EntryPoint>
+  </Runtime>
+  <Properties>
+    <Property name="TargetFrameworkVersion" value="v4.5" />
+    <Property name="RoleType" value="Web" />
+    <Property name="RoleName" value="Microsoft.Contoso.Department.ProjectCodeName.Web" />
+    <Property name="ProjectName" value="Microsoft.Contoso.Department.ProjectCodeName.Web" />
+    <Property name="Configuration" value="Release" />
+    <Property name="Platform" value="AnyCPU" />
+    <Property name="SetConfiguration" value="Configuration=Release" />
+    <Property name="SetPlatform" value="Platform=AnyCPU" />
+    <Property name="RoleTargetFramework" value="v4.5" />
+    <Property name="OutputDir" value="C:\TEMP\DEMO\Microsoft.Contoso.Devision.ProjectCodeName\Microsoft.Contoso.Department.ProjectCodeName\obj\Release\Microsoft.Contoso.Department.ProjectCodeName.Web\" />
+    <Property name="EntryPoint" value="Microsoft.Contoso.Department.ProjectCodeName.Web.dll" />
+    <Property name="SourceDir" value="C:\TEMP\DEMO\Microsoft.Contoso.Devision.ProjectCodeName\Microsoft.Contoso.Department.ProjectCodeName.Web\" />
+    <Property name="SitePhysicalPath" value="C:\TEMP\DEMO\Microsoft.Contoso.Devision.ProjectCodeName\Microsoft.Contoso.Department.ProjectCodeName\obj\Release\Microsoft.Contoso.Department.ProjectCodeName.Web\" />
+    <Property name="TargetRuntimeVersion" value="v4.0" />
+  </Properties>
+  <Sites>
+    <Site name="Web" physicalDirectory="C:\TEMP\DEMO\Microsoft.Contoso.Devision.ProjectCodeName\Microsoft.Contoso.Department.ProjectCodeName\obj\Release\Microsoft.Contoso.Department.ProjectCodeName.Web\">
+      <Bindings>
+        <Binding name="Endpoint1" endpointName="Endpoint1" />
+      </Bindings>
+    </Site>
+  </Sites>
+</RoleModel>

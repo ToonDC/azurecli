@@ -1,0 +1,1 @@
+bin\Microsoft.Contoso.Department.ProjectCodeName.Web.dll
